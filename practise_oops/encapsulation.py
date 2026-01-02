@@ -7,7 +7,7 @@ class Student:
     @bal.setter
     def bal(self,new_bal):
         self.__bal=new_bal
-        
+    # bal = property(bal, bal.setter)
 s = Student()
 print(s.bal)
 s.bal = 20000
